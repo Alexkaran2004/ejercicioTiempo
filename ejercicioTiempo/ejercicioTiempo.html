@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ejercicioTiempo.js"></script>
+</head>
+<body>
+    <h1 Ejercicio Tiempo></h1>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" pattern=".+@example\.com" size="30" required />
+    </div>
+    <div>
+        <label for="">Password (10-15)caracteres</label>
+        <input type="text" name="password" placeholder="Password" id="password" required>
+        <p class="mensaje"></p>
+    </div>
+    <div>
+        <label for="">Repeitr Password</label>
+        <input type="text" name="RepetirPassword" placeholder="RepetirPassword" id="RepetirPassword" required>
+        <p class="mensaje"></p>
+    </div>
+    <button onclick="validarContraseña()" type="submit">validarContraseña</button>
+</body>
+</html>
